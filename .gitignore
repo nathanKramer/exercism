@@ -1,0 +1,28 @@
+node_modules
+
+# Exercism
+.exercism
+
+# C
+*.dSYM
+*.out
+
+# Clojure
+target
+
+# Elixir
+.elixir_ls
+
+# Elm
+
+elm-stuff
+
+# Haskell
+.stack-work
+
+# OCaml
+_build
+.merlin
+
+# Python
+.ipynb_checkpoints

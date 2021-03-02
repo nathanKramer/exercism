@@ -1,0 +1,66 @@
+; This is the Calva evaluation results output window.
+; Leave it open, please. Because quirks.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: You can edit the contents here. Use it as a REPL if you like.
+;   Use `alt+enter` to evaluate the current top level form.
+;   (`ctrl+enter` evaluates the current form.)
+;   File URLs in stacktrace frames are peekable and clickable.
+; Debugger initialized
+clj::user=>
+; Jack-in done.
+; Evaluating file: say.clj
+#'say/number
+clj::say=>
+clj::say=>
+; Evaluating file: say.clj
+1, 0, ["one" "hundred" "zero"]
+#'say/number
+clj::say=>
+clj::say=>
+1, 0, ["one" "hundred" "zero"]
+" "
+clj::say=>
+; Evaluating file: say.clj
+1, 0, ["one" "hundred" "zero"]
+#'say/number
+clj::say=>
+clj::say=>
+" "
+clj::say=>
+("one" "hundred" "zero")
+clj::say=>
+; Evaluating file: say.clj
+1, 0, ["one" "hundred" "zero"]
+#'say/number
+clj::say=>
+clj::say=>
+" "
+clj::say=>
+" "
+clj::say=>
+; Evaluating file: say.clj
+1, 0, ["one" "hundred" "zero"]
+#'say/number
+clj::say=>
+clj::say=>
+1, 0, ["one" "hundred" "zero"]
+"one hundred zero"
+clj::say=>
+; Evaluating file: say.clj
+#'say/number
+clj::say=>
+clj::say=>
+"hundred twenty-one"
+clj::say=>
+; Evaluating file: say.clj
+#'say/number
+clj::say=>
+clj::say=>
+"one hundred twenty-one"
+clj::say=>

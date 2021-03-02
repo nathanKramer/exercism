@@ -1,0 +1,94 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; nREPL Connection was closed
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.8.3"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.25.8"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+; Evaluating file: beer_song.clj
+"\n"
+clj꞉beer-song꞉> 
+"\n"
+clj꞉beer-song꞉> 
+"\n"
+clj꞉beer-song꞉> 
+"\n"
+clj꞉beer-song꞉> 
+"\n"
+clj꞉beer-song꞉> 
+; Evaluating file: beer_song.clj
+("5bottles of beer on the wall, 5bottles of beer.\nTake one down and pass it around, 4bottles of beer on the wall." "4bottles of beer on the wall, 4bottles of beer.\nTake one down and pass it around, 3bottles of beer on the wall." "3bottles of beer on the wall, 3bottles of beer.\nTake one down and pass it around, 2bottles of beer on the wall.")
+clj꞉beer-song꞉> 
+("5bottles of beer on the wall, 5bottles of beer.\nTake one down and pass it around, 4bottles of beer on the wall."
+ "4bottles of beer on the wall, 4bottles of beer.\nTake one down and pass it around, 3bottles of beer on the wall."
+ "3bottles of beer on the wall, 3bottles of beer.\nTake one down and pass it around, 2bottles of beer on the wall.")
+clj꞉beer-song꞉> 
+; Evaluating file: beer_song.clj
+("5 bottles of beer on the wall, 5 bottles of beer.\nTake one down and pass it around, 4 bottles of beer on the wall." "4 bottles of beer on the wall, 4 bottles of beer.\nTake one down and pass it around, 3 bottles of beer on the wall." "3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.")
+clj꞉beer-song꞉> 
+("5 bottles of beer on the wall, 5 bottles of beer.\nTake one down and pass it around, 4 bottles of beer on the wall."
+ "4 bottles of beer on the wall, 4 bottles of beer.\nTake one down and pass it around, 3 bottles of beer on the wall."
+ "3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.")
+clj꞉beer-song꞉>(string/join ", " ["a" "b"]) 
+; Syntax error compiling at (output.calva-repl:46:16).
+; No such namespace: string
+clj꞉beer-song꞉> 
+(:require '[clojure.string :refer [join]])
+nil
+(join ", " ["a" "b"])
+"a, b"
+clj꞉beer-song꞉> 
+("5 bottles of beer on the wall, 5 bottles of beer.\nTake one down and pass it around, 4 bottles of beer on the wall."
+ "4 bottles of beer on the wall, 4 bottles of beer.\nTake one down and pass it around, 3 bottles of beer on the wall."
+ "3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.")
+clj꞉beer-song꞉> 
+; Evaluating file: beer_song.clj
+; Syntax error compiling at (beer_song.clj:1:1).
+; Found lib name 'clojure.string' containing period with prefix 'quote'.  lib names inside prefix lists must not contain periods
+; Evaluation of file beer_song.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉beer-song꞉> 
+clj꞉beer-song꞉> 
+("5 bottles of beer on the wall, 5 bottles of beer.\nTake one down and pass it around, 4 bottles of beer on the wall."
+ "4 bottles of beer on the wall, 4 bottles of beer.\nTake one down and pass it around, 3 bottles of beer on the wall."
+ "3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.")
+clj꞉beer-song꞉> 
+; Evaluating file: beer_song.clj
+; Syntax error compiling at (beer_song.clj:1:1).
+; Found lib name 'clojure.string' containing period with prefix 'quote'.  lib names inside prefix lists must not contain periods
+; Evaluation of file beer_song.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉beer-song꞉> 
+clj꞉beer-song꞉> 
+("5 bottles of beer on the wall, 5 bottles of beer.\nTake one down and pass it around, 4 bottles of beer on the wall."
+ "4 bottles of beer on the wall, 4 bottles of beer.\nTake one down and pass it around, 3 bottles of beer on the wall."
+ "3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall.")
+clj꞉beer-song꞉> 
+; Evaluating file: beer_song.clj
+"5 bottles of beer on the wall, 5 bottles of beer.\nTake one down and pass it around, 4 bottles of beer on the wall.\n4 bottles of beer on the wall, 4 bottles of beer.\nTake one down and pass it around, 3 bottles of beer on the wall.\n3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall."
+clj꞉beer-song꞉> 
+"5 bottles of beer on the wall, 5 bottles of beer.\nTake one down and pass it around, 4 bottles of beer on the wall.\n4 bottles of beer on the wall, 4 bottles of beer.\nTake one down and pass it around, 3 bottles of beer on the wall.\n3 bottles of beer on the wall, 3 bottles of beer.\nTake one down and pass it around, 2 bottles of beer on the wall."
+clj꞉beer-song꞉> 
+"No more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall."
+clj꞉beer-song꞉> 
+"1 bottle of beer on the wall, 1 bottle of beer.\nTake one down and pass it around, no more bottles of beer on the wall."
+clj꞉beer-song꞉> 
+; Evaluating file: beer_song.clj
+"1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall."
+clj꞉beer-song꞉> 
+"1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall."
+clj꞉beer-song꞉> 
