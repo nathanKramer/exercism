@@ -1,0 +1,1 @@
+["^ ","~$slices",["^ ","~:row",3,"~:col",1,"~:fixed-arities",["~#set",[2]],"~:name","^0","~:ns","~$series","~:top-ns","^7","~:arities",["^ ","~i2",["^ ","~:ret",["^4",["~:vector","~:seq"]],"~:arglist-str","[s slice-length]"]]],"~:filename","/Users/nathankramer/Projects/exercism/clojure/series/src/series.clj"]
