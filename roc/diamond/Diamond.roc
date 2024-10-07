@@ -2,10 +2,6 @@ module [diamond]
 
 diamond : U8 -> Str
 diamond = \letter ->
-    if letter == 'A' then
-        "A"
-        else
-
     midPoint = Num.toU64 letter - 'A'
     width = Num.toU64 ((Num.toU64 midPoint) * 2) + 1
 
